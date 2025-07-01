@@ -19,7 +19,7 @@ project/
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/NathanW46/data_reading_example
@@ -49,7 +49,7 @@ runs = [89947]  # Or multiple runs like [89947, 89948]
 Then run:
 
 ```bash
-python main_script.py
+python example_beam_plot.py
 ```
 
 This will:
@@ -59,3 +59,5 @@ This will:
   - X projection histogram
   - Y projection histogram
   - 2D histogram of (X, Y) positions
+ 
+Everything should work on windows powershell as well (probably...)
